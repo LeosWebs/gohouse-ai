@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Users, Target, Zap, CheckCircle, ArrowRight } from "lucide-react"
 import Link from "next/link"
-import Image from "next/image"
 
 export default function Component() {
     return (
