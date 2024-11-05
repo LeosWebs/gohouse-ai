@@ -10,15 +10,15 @@ export default function Component() {
             <header className="container mx-auto px-4 py-6">
                 <nav className="flex items-center justify-between">
                     <div className="flex items-center gap-0">
-                        <Link href="/">         
-                        <span className="text-xl font-bold text-red-600">GoHouse.ai</span>
+                        <Link href="/">
+                            <span className="text-xl font-bold text-red-600">GoHouse.ai</span>
                         </Link>
                     </div>
                     <div className="hidden md:flex items-center gap-8">
                         <a href="#how-it-works" className="text-gray-600 hover:text-gray-900">
-Bussines                        </a>
+                            Bussines                        </a>
                         <a href="#behind" className="text-gray-600 hover:text-gray-900">
-Agents                        </a>
+                            Agents                        </a>
                         <a href="#contact" className="text-gray-600 hover:text-gray-900">
                             Contact
                         </a>
