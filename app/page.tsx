@@ -48,12 +48,10 @@ export default function Component() {
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="/bussiness" className="text-gray-600 hover:text-gray-900">
-              Bussiness
-            </a>
-            <a href="#behind" className="text-gray-600 hover:text-gray-900">
-              Behind the project
-            </a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900">
+              Bussiness                        </a>
+            <a href="/agents" className="text-gray-600 hover:text-gray-900">
+              Agents                        </a>
+            <a href="/contact" className="text-gray-600 hover:text-gray-900">
               Contact
             </a>
           </div>
@@ -63,8 +61,8 @@ export default function Component() {
       <main className="flex-1">
         <section className="relative h-[600px] overflow-hidden flex flex-col justify-end">
           <Image
-            src="/public/Group 99.png"
-            alt="Modern red houses on water with reflections"
+            src="/public/Group99.png"
+            alt=""
             layout="fill"
             className="object-cover w-full h-full"
             priority

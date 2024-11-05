@@ -9,16 +9,16 @@ export default function Component() {
             <header className="container mx-auto px-4 py-6">
                 <nav className="flex items-center justify-between">
                     <div className="flex items-center gap-0">
-                        <Link href="/">
+                        <Link href="/" className="cursor-pointer">
                             <span className="text-xl font-bold text-red-600">GoHouse.ai</span>
                         </Link>
                     </div>
                     <div className="hidden md:flex items-center gap-8">
-                        <a href="#how-it-works" className="text-gray-600 hover:text-gray-900">
-                            Bussines                        </a>
-                        <a href="#behind" className="text-gray-600 hover:text-gray-900">
+                        <a href="/bussiness" className="text-gray-600 hover:text-gray-900">
+                            Bussiness                        </a>
+                        <a href="/agents" className="text-gray-600 hover:text-gray-900">
                             Agents                        </a>
-                        <a href="#contact" className="text-gray-600 hover:text-gray-900">
+                        <a href="/contact" className="text-gray-600 hover:text-gray-900">
                             Contact
                         </a>
                     </div>
@@ -43,9 +43,12 @@ export default function Component() {
                                     properties.
                                 </p>
                                 <div className="flex flex-col sm:flex-row gap-4">
-                                    <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
-                                        Get Free Early Access
-                                    </Button>
+                                    <Link href="https://app.gohouse.ai/auth/register">
+                                        <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
+                                            Try Demo!
+                                        </Button>
+                                    </Link>
+
                                     <Button size="lg" variant="outline" className="bg-white/10 hover:bg-white/20 text-white border-white">
                                         How It Works
                                     </Button>
@@ -143,10 +146,13 @@ export default function Component() {
                                 We work closely with real estate agencies to provide cutting-edge AI solutions that give you a competitive
                                 advantage in your market.
                             </p>
+                            <Link href="https://app.gohouse.ai/auth/register">
                             <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white">
-                                Get Free Early Access
+                                Get Early Access
                                 <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
+                            </Link>
+                            
                         </div>
                     </div>
                 </section>
