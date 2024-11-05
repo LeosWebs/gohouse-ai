@@ -71,7 +71,7 @@ export default function Component() {
           />
           <div className="relative container mx-auto px-4 pb-16 flex flex-col items-center z-10">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-8 max-w-4xl text-center drop-shadow-md">
-              Accelerate your Agency's Growth
+              Accelerate your Agencies Growth
             </h1>
             <Link href="https://app.gohouse.ai/auth/register">
               <Button

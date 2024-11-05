@@ -82,7 +82,7 @@ export default function Component() {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-muted-foreground">
-                                        Leverage AI insights to understand client preferences and show them properties they're most likely to
+                                        Leverage AI insights to understand client preferences and show them properties theyre most likely to
                                         buy.
                                     </p>
                                 </CardContent>
