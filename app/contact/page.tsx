@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
-//import { Input } from "@/components/ui/input"
-//import { Textarea } from "@/components/ui/textarea"
+
 import { Label } from "@/components/ui/label"
 import Link from "next/link"
 
@@ -9,15 +8,12 @@ function ContactForm() {
         <form className="space-y-6">
             <div>
                 <Label htmlFor="name">Name</Label>
-                {/* <Input id="name" name="name" required /> */}
             </div>
             <div>
                 <Label htmlFor="email">Email</Label>
-                {/* <Input id="email" name="email" type="email" required /> */}
             </div>
             <div>
                 <Label htmlFor="message">Message</Label>
-                {/* <Textarea id="message" name="message" required /> */}
             </div>
             <Button type="submit" className="bg-red-600 hover:bg-red-700 text-white">
                 Send Message
